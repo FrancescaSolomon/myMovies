@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  color: aqua;  
+  border: 2px solid pink;
+  height: 50px;
+  background-color: #FFF1E6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  color: white;
+  background: linear-gradient( #FFDAB9, #FFC0CB );
+  height: 25px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  height: calc(100vh - 75px);
+}
+
+.movies__title {
+  font-size: 25px;
+  margin: 5px;
+}
+
+.movies__list {
+  margin-left: 35px;
+}
+
+.red {
+  color: #ff2800;
+}
+
+.blue {
+  color: blueviolet;
+}
+
+.movies__listElement {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
